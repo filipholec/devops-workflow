@@ -164,7 +164,8 @@ We can also do some introspection and monitor the DevOps pipeline itself, monito
 All of this information is then fed back to the Product Manager and the development team to close the loop on the process. It would be easy to say this is where the loop starts again, but the reality is that this process is continuous. There is no start or end, just the continuous evolution of a product throughout its lifespan, which only ends when people move on or don’t need it any more.
 
 ## Tools used in DevOps processes
-Write tools that you'd use in each of the phases:
+Do you know any tools that you'd use in each of the phases below?
+
  * Plan
  * Code
  * Build
@@ -173,5 +174,11 @@ Write tools that you'd use in each of the phases:
  * Deploy
  * Operate
  * Monitor
- 
-List of tools can be found [here](https://engeto.com/cs/kurz/introduction-to-devops/studium/yqhV8YTiRvuJue4GaHUY2g/environment-and-tools-of-devops/plan).
+
+List of tools can be found [here](https://engeto.com/cs/kurz/introduction-to-devops/studium/pxFaiYQsQnq6v_U1dMUK9g/environment-and-tools-of-devops/overview-of-tools).
+
+## Task at the end
+You are encouraged to go through scenarios about Git - to test your skills in this version control system. 
+
+They are available at:
+ * https://katacoda.com/courses/git
