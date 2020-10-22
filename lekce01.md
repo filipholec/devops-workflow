@@ -54,14 +54,14 @@ We have 4 lecturers, that will help you throughout this course
  * Petr Skyva
 
 ## Education process
-In addition to webinar course, you'll have online course 
+In addition to webinar course, you'll have several online courses to revise your 
 
 You are encouraged to ask questions on our [Slack workspace]().
 
 ## Icebreaker - Task at the beginning
-We should get to know each other a bit more. 
+We should get to know each other a bit more. We've created an API that you can call and send a request with data about you.
 
-Create a `curl` command to our API with 2 sentences about you and what you expect from this course. After 5 minutes, we'll go through the 
+> **TASK:** Create a `curl` command to our API with 2 sentences about you and what you expect from this course. After 5 minutes, we'll go through the submissions 
 
 ## What is DevOps
 There are many definitions of what does the term DevOps mean, since it can be ambiguous and when you ask 10 different people, each might come up with their own explanation.
@@ -117,7 +117,7 @@ The Plan stage covers everything that happens before the developers start writin
 The product roadmap can be broken down into Epics, Features and User Stories, creating a backlog of tasks that lead directly to the customers’ requirements. The tasks on the backlog can then be used to plan sprints and allocate tasks to the team to begin development.
 
 ### Code
-Once the team had grabbed their coffees and had the morning stand-up (daily meeting about upcoming work in the team), the developers can get to work. In addition to the standard toolkit of a software developer, the team has a standard set of plugins installed in their development environments (e.g. Vistual Studio, JetBrains Pycharm, IntelliJ IDEA, ...) to aid the development process. Apart from obvious IDE feautres, it is also to help enforce consistent code-styling and avoid common security flaws and code anti-patterns.
+Once the team had grabbed their coffees and had the morning stand-up (daily meeting about upcoming work in the team), the developers can get to work. In addition to the standard toolkit of a software developer, the team has a standard set of plugins installed in their development environments (e.g. Visual Studio, JetBrains Pycharm, IntelliJ IDEA, ...) to aid the development process. Apart from obvious IDE features, it is also to help enforce consistent code-styling and avoid common security flaws and code anti-patterns.
 
 This helps to teach developers good coding practice while aiding collaboration by providing some consistency to the codebase. These tools also help resolve issues that may fail tests later in the pipeline, resulting in fewer failed builds.
 
@@ -163,5 +163,15 @@ We can also do some introspection and monitor the DevOps pipeline itself, monito
 
 All of this information is then fed back to the Product Manager and the development team to close the loop on the process. It would be easy to say this is where the loop starts again, but the reality is that this process is continuous. There is no start or end, just the continuous evolution of a product throughout its lifespan, which only ends when people move on or don’t need it any more.
 
-
 ## Tools used in DevOps processes
+Write tools that you'd use in each of the phases:
+ * Plan
+ * Code
+ * Build
+ * Test
+ * Release
+ * Deploy
+ * Operate
+ * Monitor
+ 
+List of tools can be found [here](https://engeto.com/cs/kurz/introduction-to-devops/studium/yqhV8YTiRvuJue4GaHUY2g/environment-and-tools-of-devops/plan).
