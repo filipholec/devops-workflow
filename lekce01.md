@@ -177,6 +177,36 @@ Do you know any tools that you'd use in each of the phases below?
 
 List of tools can be found [here](https://engeto.com/cs/kurz/introduction-to-devops/studium/pxFaiYQsQnq6v_U1dMUK9g/environment-and-tools-of-devops/overview-of-tools).
 
+## DevOps vs. Agile
+Q: What is Agile?
+
+Agile software development has broken down some of the silos between requirements analysis, testing and development. Deployment, operations and maintenance are other activities which have suffered a similar separation from the rest of the software development process. The DevOps movement is aimed at removing these silos and encouraging collaboration between development and operations.
+
+Let's break it down in the following images.
+
+**Stakeholders and communication chain in a typical IT process:**
+<p align="center">
+  <img src="assets/typicalitprocess.png" alt="Typical IT Process">
+</p>
+
+**Agile addresses gaps in Customer and Developer communications:**
+<p align="center">
+  <img src="assets/agilega.png" alt="Agile Gap">
+</p>
+
+**DevOps addresses gaps in Developer and IT Operations communications:**
+<p align="center">
+  <img src="assets/devopsga.png" alt="DevOps Gap">
+</p>
+
+There are multiple differences between Agile and DevOps we should address. These are the key ones:
+ * **Goals** - Agile is an iterative approach which main focus is on collaboration, small releases (sprints) and customer/stakeholder feedback. On the other hand we have Devops, which main goal is to bring development and operations teams together to work together.
+ * **Efficiency** - The efficient team in Agile is quite small, DevOps requires larger team to succeed.
+ * **Automation** - Agile is not focused on automation, DevOps is focused around it.
+ * **Target area** - In Agile it is software development (what are the requirements that we're going to code), in DevOps it is end-to-end business solutions.
+ * **Feedback** - Agile derives feedback from customers, DevOps from internal team.
+ * **Focus** - Agile process focuses on constant change, DevOps on constant testing and delivery.
+
 ## Task at the end
 You are encouraged to go through scenarios about Git - to test your skills in this version control system. 
 
