@@ -10,8 +10,9 @@
 - [Git course (online course)](https://engeto.com/cs/kurz/git-zaklady-pro-uzivatele/lekce)
 
 ## Goal & structure of this lesson
-The main goal of this lesson is to get to know the course, ENGETO team and people on the course. We can 
+The main goal of this lesson is to get to know the course, ENGETO team and people on the course.
 
+We can break down the lesson to the following blocks:
  * **Introduction to the course, ENGETO and the team [30m]**
  * **Introduction of yourself [20m]**
  * *Break [10m]*
@@ -34,14 +35,13 @@ Here is the breakdown of the weeks:
  7. Kubernetes #1 [4.1.2021]
  8. Kubernetes #2 [11.1.2021]
  9. Monitoring. Logging & Alerting [18.1.2021]
- 10. Finalization & workshop (certification) [25.1.2021]
+ 10. DevOps project / workshop (certification) [25.1.2021]
  
 ## Certification
 One of the benefits of DevOps onsite course is the possibility to have certification at the end of the onsite course.
 
 This certification consists of:
- * multiple-choice test with 50 questions -> you need to 70% to pass the test to get to 2nd level
- * mini project on the exam - students will have assignment to set up systems to specific state
+ * mini project on the exam - students will have an assignment to set up systems to a specific state
  * review of minor projects from each lesson that you should complete before the exam
 
 After you've passed the certification exam, you'll be awarded the **ECDJ - ENGETO Certified DevOps Junior** certification.
@@ -54,7 +54,10 @@ We have 4 lecturers, that will help you throughout this course
  * Petr Skyva
 
 ## Education process
-In addition to webinar course, you'll have several online courses to revise your 
+In addition to webinar course, you'll have several online courses with additional information and exercises / projects.
+
+They are all available on our online platform https://engeto.com on the Online DevOps Academy Tab:
+ * https://engeto.com/cs/onsite/1KlEujJySWGFvj5-ecl75A/online-devops-academy-czechia-2020-11-09  
 
 You are encouraged to ask questions on our [Slack workspace]().
 
@@ -64,15 +67,16 @@ We should get to know each other a bit more. We've created an API that you can c
 > **TASK:** Create a `curl` command to our API with 2 sentences about you and what you expect from this course. After 5 minutes, we'll go through the submissions 
 
 ## What is DevOps
-There are many definitions of what does the term DevOps mean, since it can be ambiguous and when you ask 10 different people, each might come up with their own explanation.
+There are many definitions of what the term DevOps means, since it can be ambiguous. When you ask 10 different people, each might come up with their own explanation.
 
-But, let's go down to earth and start with what is the mainstream definition of the word DevOps:
+But, let's start with what is the mainstream definition of the word DevOps:
 > **DevOps is the software engineering culture that is aimed at unification and cooperation of two major players in IT - Development (Dev) and Operations (Ops).**
 
-What is nice about DevOps is that it includes:
+What is nice about DevOps:
  * shorter development cycles (similar to agile development)
- * that means increased frequency of deployments
+ * which results in the increased frequency of deployments
  * dependable releases, in alignment with business goals
+ * the added value compared to development is the operations part (infrastructure, deployment, automation, ...)   
 
 It also strongly advocates for automation and monitoring of all steps in software development:
  * integration
@@ -131,9 +135,9 @@ Simultaneously, the pull request triggers an automated process which builds the 
 ### Test
 Once a build succeeds, it is automatically deployed to a staging environment for deeper, out-of-band testing. The staging environment may be an existing hosting service, or it could be a new environment provisioned as part of the deployment process. This practice of automatically provisioning a new environment at the time of deployment is referred to as Infrastructure-as-Code (IaC) and is a core part of many DevOps pipelines.
 
-Once the application is deployed to the test environment, a series of manual and automated tests are performed. Manual testing can be traditional User Acceptance Testing (UAT) where people use the application as the customer would to highlight any issues or refinements that should be addressed before deploying into production.
+Once the application is deployed to the test environment, a series of manual and automated tests are performed. Manual testing can be traditional User Acceptance Testing (UAT) where people use the application as the end customer in order to highlight any issues or refinements that should be addressed before deploying into production.
 
-At the same time, automated tests might run security scanning against the application, check for changes to the infrastructure and compliance with hardening best-practices, test the performance of the application or run load testing. It is usually done as a new testing without interrupting the flow of developers or impacting the production environment. This is done because you don't want to overwrite production environment with one that is not properly tested.
+At the same time, automated tests might run security scanning against the application, check for changes to the infrastructure and compliance with hardening best-practices, test the performance of the application or run load testing. It is usually done as a new testing without interrupting the flow of developers or impacting the production environment. This is done because you don't want to overwrite the production environment with one that is not properly tested.
 
 ### Release
 The Release phase is a milestone in a DevOps pipeline — it’s the point at which we say a build is ready for deployment into the production environment. By this stage, each code change has passed a series of manual and automated tests, and the operations team can be confident that breaking issues and regressions are unlikely.
@@ -152,7 +156,7 @@ A blue-green deployment - two identical deployment environments - lets us switch
 ### Operate
 The new release is now live and being used by the customers. Great work!
 
-The operations team is now hard at work, making sure that everything is running smoothly. Based on the configuration of the hosting service, the environment automatically scales with load to handle peaks and troughs in the number of active users.
+The operations team is now hard at work, making sure that everything is running smoothly. Based on the configuration of the hosting service, the environment automatically scales with the load to handle peaks and troughs in the number of active users.
 
 The organisation has also built a way for their customers to provide feedback on their service, as well as tooling that helps collect and triage this feedback to help shape the future development of the product. This feedback loop is important — nobody knows what they want more than the customer, and the customer is the world’s best testing team, donating many more hours to testing the application than the DevOps pipeline ever could. You need to capture this information, it’s worth is weight in gold.
 
@@ -177,10 +181,12 @@ Do you know any tools that you'd use in each of the phases below?
 
 List of tools can be found [here](https://engeto.com/cs/kurz/introduction-to-devops/studium/pxFaiYQsQnq6v_U1dMUK9g/environment-and-tools-of-devops/overview-of-tools).
 
-## DevOps vs. Agile
-Q: What is Agile?
+## DevOps and Agile development 
+Q: What is Agile development?
 
 Agile software development has broken down some of the silos between requirements analysis, testing and development. Deployment, operations and maintenance are other activities which have suffered a similar separation from the rest of the software development process. The DevOps movement is aimed at removing these silos and encouraging collaboration between development and operations.
+
+We can say, that DevOps builds on Agile development practices and takes it even further. In a nutshell, Agile development is a systematic approach to software development with focus on rapid iteration based on customer feedback. DevOps is a concept (set of practices), that has focus on collaboration between development and operations with the goal to reduce time for development cycle. This goal can be achieved by effective collaboration between Dev and Ops teams and automation of the process. **DevOps is therefore in complement to agile development.**
 
 Let's break it down in the following images.
 
@@ -199,16 +205,17 @@ Let's break it down in the following images.
   <img src="assets/devopsga.png" alt="DevOps Gap">
 </p>
 
-There are multiple differences between Agile and DevOps we should address. These are the key ones:
- * **Goals** - Agile is an iterative approach which main focus is on collaboration, small releases (sprints) and customer/stakeholder feedback. On the other hand we have Devops, which main goal is to bring development and operations teams together to work together.
- * **Efficiency** - The efficient team in Agile is quite small, DevOps requires larger team to succeed.
- * **Automation** - Agile is not focused on automation, DevOps is focused around it.
- * **Target area** - In Agile it is software development (what are the requirements that we're going to code), in DevOps it is end-to-end business solutions.
- * **Feedback** - Agile derives feedback from customers, DevOps from internal team.
- * **Focus** - Agile process focuses on constant change, DevOps on constant testing and delivery.
+The approach to **software development** has gone through the following evolution:
+ * Chaos
+ * Waterfall
+ * **Agile development**
+ * **DevOps**
 
 ## Task at the end
 You are encouraged to go through scenarios about Git - to test your skills in this version control system. 
 
 They are available at:
  * https://katacoda.com/courses/git
+ 
+Furthermore, you should prepare the following:
+ * Virtual machine with CentOS 7 that we'll use during the course
