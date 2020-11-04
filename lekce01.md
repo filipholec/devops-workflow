@@ -59,12 +59,20 @@ In addition to webinar course, you'll have several online courses with additiona
 They are all available on our online platform https://engeto.com on the Online DevOps Academy Tab:
  * https://engeto.com/cs/onsite/1KlEujJySWGFvj5-ecl75A/online-devops-academy-czechia-2020-11-09  
 
-You are encouraged to ask questions on our [Slack workspace]().
+You are encouraged to ask questions on our [Slack workspace](https://devopsacademy09112020.slack.com).
 
 ## Icebreaker - Task at the beginning
 We should get to know each other a bit more. We've created an API that you can call and send a request with data about you.
 
-> **TASK:** Create a `curl` command to our API with 2 sentences about you and what you expect from this course. After 5 minutes, we'll go through the submissions 
+> **TASK:** Create a `curl` command to our API with 2 sentences about you and what you expect from this course. After 5 minutes, we'll go through the submissions. Alternatively, you can use Python requests if that's better for you.
+
+Information:
+ * write 2-3 sentences about you - what is your tech backround, what do you want from this course, if you want to have career consulting at ENGETO
+ * we will use channel #introduction in Slack
+ * the Slack hook for writing a news message is `https://hooks.slack.com/services/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`
+ * we'll use a `POST` request on this hook
+ * send JSON data - parameter text, value will be your introduction
+ * you can verify successful task completion in channel #introduction - your message will be sent by App "Intro API"
 
 ## What is DevOps
 There are many definitions of what the term DevOps means, since it can be ambiguous. When you ask 10 different people, each might come up with their own explanation.
