@@ -67,7 +67,7 @@ We should get to know each other a bit more. We've created an API that you can c
 > **TASK:** Create a `curl` command to our API with 2 sentences about you and what you expect from this course. After 5 minutes, we'll go through the submissions. Alternatively, you can use Python requests if that's better for you.
 
 Information:
- * write 2-3 sentences about you - what is your tech backround, what do you want from this course, if you want to have career consulting at ENGETO
+ * write 2-3 sentences about you - what is your tech background, what do you want from this course, if you want to have career consulting at ENGETO
  * we will use channel #introduction in Slack
  * the Slack hook for writing a news message is `https://hooks.slack.com/services/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`
  * we'll use a `POST` request on this hook
