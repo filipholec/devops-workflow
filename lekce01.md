@@ -51,6 +51,7 @@ We have 4 lecturers, that will help you throughout this course
  * Ivo Klimsa
  * Marek Cermak
  * Martin Beranek
+ * Jan Michalcak
  * Petr Skyva
 
 ## Education process
