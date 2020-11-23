@@ -227,4 +227,4 @@ They are available at:
  * https://katacoda.com/courses/git
  
 Furthermore, you should prepare the following:
- * Virtual machine with CentOS 7 that we'll use during the course
+ * Virtual machine with CentOS 8 that we'll use during the course
